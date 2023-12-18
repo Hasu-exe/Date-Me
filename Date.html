@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container"></div>
+    <div>
+        <h1 class = "header_text">Do you wanna go ice skating with me?</h1>
+    </div>
+    <div class="gif_container">
+        <img src="https://media4.giphy.com/media/cJ3zW8LbEEODVgbgyU/giphy.gif?cid=ecf05e47aa5jx1voafrub3lk8o7ccpny1lhssigjyzbamfwr&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="Cute animated image">
+    </div>
+    <div class = "buttons">
+        <button class="btn" id = "YesButton" onclick="nextPage()">Yes</button>
+        <button class="btn" id = "NoButton" onmouseover= "moveButton()">No</button>
+        <script>
+           function nextPage() {
+            window.location.href= "Yes.html" ;
+        }
+        
+            function moveButton() {
+                var button = document.getElementById("NoButton");
+                button.style.position = "absolute";
+                button.style.left = Math.random () * window.innerWidth + "px";
+                button.style.top = Math.random () * window.innerHeight + "px";
+            }
+               
+        </script>
+</body>
+</div>

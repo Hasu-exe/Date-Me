@@ -1,0 +1,13 @@
+Position the ":no-button" button absolutely within body */
+#NoButton {
+    position: absolute;
+    margin-left: 150px;
+    transition: 0.5s;
+    /* smooth movement */
+}
+
+#YesButton {
+    position: absolute;
+    margin-left: 150px;
+    /* smooth movement */
+}/*

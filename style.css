@@ -1,0 +1,32 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #dbeafe;
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+}
+
+.buttons {
+   font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    /* optional: add some space between buttons */
+}
+
+.btn {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bold;
+    background-color: rgb(177, 209, 236);
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #b2c0d3;
+    padding: 5px 30px;
+    /* optional: add some space between buttons */
+}
+
